@@ -1,0 +1,35 @@
+@import "fuentes";
+
+/* variables */
+$gris:gray;
+$negro:rgb(0,0,0);
+$gris2:darkgray;
+$blanco:white;
+
+
+.col-lg-6{
+	h1{
+	 color:$negro;
+	 font-size:$pDesktop;
+	}
+	p{
+	color:$negro;
+	font-size:$pDesktop2;
+	}
+} 
+
+.texto{
+	background-color: $blanco;
+	&__encabezado{
+		color:$negro;
+	}
+	&__parrafo{
+		font-size:20px;
+		&--color{
+		color:$negro;
+		 @media only screen and (max-width:768px){
+		color:$negro;
+		}
+		}
+	}
+}

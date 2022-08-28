@@ -1,0 +1,16 @@
+$pDesktop:30px;
+$pDesktop2:14px;
+$fontFamily: 'tahoma';
+
+
+.col-lg-6{
+	p{
+	font:
+	{
+		size:$pDesktop;
+		family:$fontFamily;
+		weight:bold;
+		}
+	}
+
+} 

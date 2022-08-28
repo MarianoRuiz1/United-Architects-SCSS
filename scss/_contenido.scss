@@ -1,0 +1,41 @@
+@import "colores";
+
+$centrar:center;
+$h1Desk:50px;
+$h1Mob:35px;
+.titulo{
+	text-align:$centrar;
+	padding:50px 0;
+	&__principal{
+		@media only screen and (max-width: 768px){
+			font:
+			{
+				size:$h1Mob;
+				weight:bold;
+				color: black;
+			}	
+		}
+		@media only screen and (min-width: 1024px){
+			font:
+			{
+				size:$h1Desk;
+				weight:bold;
+				color: black;
+			}
+		}
+		&--color{
+			color:$negro;
+		}		
+	}
+}
+.TextI{
+	text-align: right;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color: white;
+	text-shadow: 0 0 4px black;
+}
